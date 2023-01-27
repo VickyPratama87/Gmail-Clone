@@ -10,9 +10,9 @@ const Emails = () => {
       timestamp: "11:45 AM",
     },
     {
-      expeditor: "Vocasia Recruitmen",
-      messageTitle: "FORM VOCASIA MAGANG 4.0",
-      message: "Halo Calon Pemagang Vocasia, Salam Sehat dan Sukses Selalu.",
+      expeditor: "Harisenin Team",
+      messageTitle: "Kamu bisa mulai jadi Web Developer di awal ahun 2023 lho",
+      message: "Persaingan kerja makin ketat aja nih! Kamu mau berkarir jadi Web Developer?",
       timestamp: "10:40 AM",
     },
     {
@@ -52,9 +52,9 @@ const Emails = () => {
       timestamp: "Jan 5",
     },
     {
-      expeditor: "Support Alta",
-      messageTitle: "Pengumuman Lolos ke Tahap Selanjutnya",
-      message: "Halo sobat Kampus Merdeka Batch 4 Alterra Academy! Sebelumnya kami ucapkan selamat datang dan terima kasih.",
+      expeditor: "ResumeNerd",
+      messageTitle: "You're on the right track",
+      message: "Hi Vicky Pratama Setia, We’ve noticed that you saved your resume but haven’t finished it yet.",
       timestamp: "Jan 3",
     },
     {
@@ -106,9 +106,9 @@ const Emails = () => {
       timestamp: "12/01/22",
     },
     {
-      expeditor: "Citiasia Inc",
-      messageTitle: "Undangan Seleksi Calon Peserta Magang Kampus Merdeka",
-      message: "Selamat Siang Calon peserta magang Citiasia Inc. Program Magang Bersertifikat Kampus Merdeka Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi RI.",
+      expeditor: "Discord",
+      messageTitle: "vips mentioned you in WPU",
+      message: "diskusi-kelas-icp (IT Career Preparation by Alterra Academy).",
       timestamp: "11/30/22",
     },
     {
@@ -142,19 +142,73 @@ const Emails = () => {
       timestamp: "11/4/22",
     },
     {
-      expeditor: "Nutrifood Recruitmen",
-      messageTitle: "[Nutrifood] Silakan Submit CV Online ya!",
-      message: "Halo! Terima kasih sudah mendaftar pada Program Magang Bersertifikat Kampus Merdeka  – NUTRIFOOD. ",
+      expeditor: "Kinobi Community",
+      messageTitle: "Resume Completed!",
+      message: "Hey 016_vicky pratama! One word. WOW! We are loving your resume. ",
       timestamp: "11/1/22",
+    },
+    {
+      expeditor: "Jadi Hacker",
+      messageTitle: "[OPEN REGIST] BUNDLING HACK - LEVEL 1 & 2",
+      message: "Halo Ethical Hackers! Sebagai bagian dari komitmen kami untuk terus mengedepankan kemajuan literasi cyber security.",
+      timestamp: "11/1/22",
+    },
+    {
+      expeditor: "Google Forms",
+      messageTitle: "FORM PEMIRA JURUSAN TEKNIK INFORMATIKA 2023",
+      message: "Thanks for filling out FORM PEMIRA JURUSAN TEKNIK INFORMATIKA 2023.",
+      timestamp: "10/30/22",
+    },
+    {
+      expeditor: "Dicoding Team",
+      messageTitle: "Anda telah dinyatakan hadir di Event Dicoding Developer Coaching #79 : DevOps",
+      message: "Salam VICKY PRATAMA SETIA MAHARDIKA, Selamat, Anda telah dinyatakan hadir pada Event Dicoding Developer Coaching #79.",
+      timestamp: "11:45 AM",
+    },
+    {
+      expeditor: "Harisenin Team",
+      messageTitle: "Kamu bisa mulai jadi Web Developer di awal ahun 2023 lho",
+      message: "Persaingan kerja makin ketat aja nih! Kamu mau berkarir jadi Web Developer?",
+      timestamp: "10:40 AM",
+    },
+    {
+      expeditor: "Meysa Mahfudhoh via.",
+      messageTitle: "Vicky Pratama, start a conversation with your new connection, Meysa",
+      message: "Meysa Mahfudhoh has accepted your invitation. Let's start a conversation.",
+      timestamp: "9:30 AM",
+    },
+    {
+      expeditor: "Amazon Web Services",
+      messageTitle: "Registration Complete | AWS Builders Online Series",
+      message: "You are already registered for AWS Builders Online Series. Mark your calendar now so you do not miss it.",
+      timestamp: "4:15 PM",
+    },
+    {
+      expeditor: "Google Forms",
+      messageTitle: "SIB Dicoding Cycle 4 - Form Pendaftaran Ulang",
+      message: "Thanks for filling out SIB Dicoding Cycle 4 - Form Pendaftaran Ulang",
+      timestamp: "3:30 PM",
+    },
+    {
+      expeditor: "Nila Mirnawati",
+      messageTitle: "I want to connect",
+      message: "Nila Mirnawati Student at Universitas Negeri Surabaya.",
+      timestamp: "Jan 10",
+    },
+    {
+      expeditor: "Citra, Course-Net",
+      messageTitle: "Nggak Semua Cyber Security Kerjanya Ngoding!Holiday Special !",
+      message: "Kerja di bidang Cyber Security tanpa harus jago ngoding?. Emang iya ya?",
+      timestamp: "Jan 7",
     },
   ];
 
   return (
-    <div>
+    <>
       {emails.map((email) => (
         <Email expeditor={email.expeditor} messageTitle={email.messageTitle} message={email.message} timestamp={email.timestamp} />
       ))}
-    </div>
+    </>
   );
 };
 

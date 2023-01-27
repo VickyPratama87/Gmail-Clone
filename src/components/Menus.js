@@ -27,11 +27,13 @@ const Menus = () => {
     },
   ];
   return (
-    <div className="w-18 h-full flex flex-col px-1 pt-3 fixed left-0 bg-[#EAF1FB]">
-      {menus.map((menu) => (
-        <Menu icon={menu.icon} title={menu.title} />
-      ))}
-    </div>
+    <>
+      <div className="w-16 h-full flex flex-col pt-3 fixed left-0 bg-[#EAF1FB]">
+        {menus.map((menu) => (
+          <Menu icon={menu.icon} title={menu.title} />
+        ))}
+      </div>
+    </>
   );
 };
 
